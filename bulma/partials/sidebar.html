@@ -1,0 +1,13 @@
+<aside class="menu">
+  {% for toc_item in page.toc %}
+    <p class="menu-label">
+      {{ toc_item.title }}
+    </p>
+
+    {% if toc_item.children %}
+      <ul class="menu-list">
+        {% include 'partials/sidebar-item.html' %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+</aside>
