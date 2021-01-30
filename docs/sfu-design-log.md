@@ -63,6 +63,6 @@ This would look like:
 - No Idle video loop would be possible, as this requires switching between ingress and idle loop RTP stream.
 - Also, without RTP splicing, A/B/C simulcast switching is basically impossible.
 
-Thus, to support these three features (ingress reconnect, idle-loop, simulcast switching)
+Thus, to support these three features (ingress reconnect, idle-loop, simulcast switchin)
 
 
