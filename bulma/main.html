@@ -13,7 +13,7 @@
   <section class="section">
     <div class="container">
       <div class="columns">
-        {% if url == '/' -%}
+        {% if page.title != 'Home' -%}
         <div class="column is-one-quarter">
           {% include 'partials/sidebar.html' %}
         </div>
